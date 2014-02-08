@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Web Design Validator</title>
+	    
+	    <!-- Le Styles -->
+		<link rel="stylesheet" href="css/responsive.css" >
+
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+    </head>
+	<body id="livedemo" style="padding-bottom: 48px;">
+		<header id="mainlivedemo">
+			<ul id="responsivator" style="display: block;">
+				<li class="" id="desktop"></li>
+				<li class="" id="tablet-landscape"></li>
+				<li class="" id="tablet-portrait"></li>
+				<li class="" id="iphone-landscape"></li>
+				<li class="active" id="iphone-portrait"></li>
+			</ul>
+			<div id="site_section">
+				<label for="site_to_validate">URL to validate : </label>
+				<input id="site_to_validate" type="text" placeholder="http://">
+				<button id="go_validate">Go</button>
+			</div>
+		</header>
+		<section id="iframelive" class="iphone-portrait">
+			<div id="frameWrapper">		    			
+				<iframe id="frame" frameborder="0" src="" style="height: 848px;">
+				</iframe>
+			</div>
+		</section>
+
+		<!-- Le Scripts -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/responsive.js"></script>
+
+		<!-- Google analytics -->
+		<script type="text/javascript">
+	        var _gaq=[['_setAccount','UA-38463115-1'],['_trackPageview']];
+	        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	        s.parentNode.insertBefore(g,s)}(document,'script')); 
+		</script>
+		<!--// Google analytics -->
+	</body>
+</html>
