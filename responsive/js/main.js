@@ -52,7 +52,7 @@ $(document).ready(function() {
 
 				var frame = document.getElementById('frame');
                 var argURL = window.location.search;
-                var defaulURL = 'http://jsolano.org'
+                var defaulURL = 'http://getbootstrap.com'
 
                 if (argURL) {
                 	var targetURL = argURL.substring(argURL.indexOf('=') + 1);
