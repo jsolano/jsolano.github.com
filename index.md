@@ -7,6 +7,10 @@ tagline: Supporting tagline
 
 My name is Juan Solano, I'm software engineer and entrepreneur with passion for technologies. I live in Ottawa, Canada.
 
+This is a wordle image of my background, 
+
+![alt text](/assets/images/juan_wordle5.jpg "Wordle Resume")
+
 I can help you with:
   * Creative Ideas
   * UX/UI

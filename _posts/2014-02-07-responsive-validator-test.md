@@ -15,7 +15,7 @@ The simple solution was created a page with desktop / ipad / ipod / iphone layou
 
 ![alt text](/assets/images/responsive.png "Responsive Validator")
 
-[Click here to see Live](http://jsolano.org/responsive)
+[Click here to see Live](/responsive)
 
 Of course, this quick test never replace testing with the real devices. Many issues are hidden by 
 the desktop processing. But, the great value is the quick validation we can make of 
