@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Responsive Validator Test"
+title: "Testing Responsive Design"
 tagline: "Supporting tagline"
 description: ""
 category: tools
