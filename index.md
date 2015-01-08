@@ -5,7 +5,7 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-My name is Juan Solano, I'm software engineer and entrepreneur with passion for technologies. I live in Ottawa, Canada.
+I'm software engineer and entrepreneur with passion for technologies. I live in Ottawa, Canada.
 
 This is a wordle image of my background, 
 
