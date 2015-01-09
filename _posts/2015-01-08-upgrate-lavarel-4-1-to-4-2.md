@@ -4,19 +4,17 @@ title: "How Upgrate Laravel 4.1.x t0 4.2.x in Ubuntu 12.04 Precision"
 tagline: "Supporting tagline"
 description: ""
 category: "Web Development"
-tags: [tools,web,development]
+tags: [tools,web,development, Laravel, Vagrant]
 ---
 {% include JB/setup %}
 
-After making a change in the style of our responsive web apps, we need to validate the impact of 
-those changes.  I made this tool to validate quickly our web apps in different screen sizes.  
+If you started your project with Laravel 4.1.x in 2013, now is time to update to 4.2.x, but the process is not as simple as it sound, because that include upgrate your php distro from 4.3 for 4.4+ or 4.5, probably at this point you already upgrated your laptop php version with the OSX upgrate to Yosemte.  The problem is with your vagrams VMs and the AWS instances. 
 
-The simple solution was created a page with desktop / ipad / ipod / iphone layouts.
+If you want move to php 5.5, it comes with Apache 2.4 or you can move to php 4.4.x for now and continue with 
+apache 2.2 (my choice!)
 
-![alt text](/assets/images/responsive.png "Responsive Validator")
+[First, upgrate your php in your vagram/aws with Ubuntu 12.04](http://www.dev-metal.com/how-to-install-latest-php-5-4-x-on-ubuntu-12-04-lts-precise-pangolin/)
 
-[Click here to see Live](/responsive)
+[Secord, upgrate your Laravel version to 4.2](http://laravel.com/docs/4.2/upgrade#upgrade-4.2)
 
-Of course, this quick test never replace testing with the real devices. Many issues are hidden by 
-the desktop processing. But, the great value is the quick validation we can make of 
-our changes. 
+If you have any question follow this steps, please add a comment. 
