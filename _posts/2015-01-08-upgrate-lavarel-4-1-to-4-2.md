@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How Upgrate Laravel 4.1.x t0 4.2.x in Ubuntu 12.04 Precision"
+title: "How Upgrate Laravel 4.1.x t0 4.2.x in Ubuntu 12.04 LTS (Precise Pangolin)"
 tagline: "Supporting tagline"
 description: ""
 category: "Web Development"
