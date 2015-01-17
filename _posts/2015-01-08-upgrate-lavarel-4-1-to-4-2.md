@@ -17,4 +17,6 @@ apache 2.2 (my choice!)
 
 [Secord, upgrate your Laravel version to 4.2](http://laravel.com/docs/4.2/upgrade#upgrade-4.2)
 
+[PD, if come from php 4.0.*, you have to upgrate 4.0 => 4.1 before](http://laravel.com/docs/4.2/upgrade#upgrade-4.2)
+
 If you have any question follow this steps, please add a comment. 
