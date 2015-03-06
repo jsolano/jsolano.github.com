@@ -11,7 +11,8 @@ tags: [tools,web,development, Laravel, Vagrant, Mysql]
 Working with Vagrant is a change in term of provisioning your DEV enviroment, but also come with new challenges. Now you database is not a local service anymore.  It's running somewhere deep in the forest of Vagrant and Virtual Box.  Arrive there in not easy but not imposible.  Using the SSH tunnel we can create a trust channel to see into vagrant. 
 
 Here is my challenge (Basically I'm writing this for myself in the future)
-I need to connect SEQUEL PRO to a MySql instance runnign in a vagrant machine. 
+
+#I need to connect SEQUEL PRO to a MySql instance runnign in a vagrant machine. 
 
 The vagrant is an Ubuntu 12.04 image with MySQL installed.  
 

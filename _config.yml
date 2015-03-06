@@ -8,10 +8,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Juan Pablo Solano
+title : J.P. Solano
 tagline: Site Tagline
 author :
-  name : Juan Solano
+  name : J.P. Solano
   email : juanp.solano@gmail.com
   github : jsolano
   twitter : solanojuan
