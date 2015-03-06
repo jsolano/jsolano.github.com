@@ -12,7 +12,7 @@ Working with Vagrant is a change in term of provisioning your DEV enviroment, bu
 
 Here is my challenge (Basically I'm writing this for myself in the future)
 
-###I need to connect SEQUEL PRO to a MySql instance runnign in a vagrant machine. 
+#I need to connect SEQUEL PRO to a MySql instance runnign in a vagrant machine. 
 
 The vagrant is an Ubuntu 12.04 image with MySQL installed.  
 
@@ -39,6 +39,7 @@ The vagrant is an Ubuntu 12.04 image with MySQL installed.
 6) open SEQUEL PRO
 
 7) Go to SSH connections :
+
 	* Name: <anyname>
 	* MySQL Host: {99.99.99.99}  (MySql IP from step 2)
 	* Username: root
