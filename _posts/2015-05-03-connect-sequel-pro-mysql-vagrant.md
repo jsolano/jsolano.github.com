@@ -19,14 +19,21 @@ The vagrant is an Ubuntu 12.04 image with MySQL installed.
 
 	$vagrant ssh
 
-2) Find the address MySQL is bound to : cat /etc/mysql/my.cnf | grep bind-address
-   The result will be : bind-address = 99.99.99.99 <- example
+2) Find the address MySQL is bound to : 
+   
+   cat /etc/mysql/my.cnf | grep bind-address
+   bind-address = 99.99.99.99 <- example
 
-3) enter to your mysql root -r root -p {root-password-here}
+3) enter to your 
+	
+	mysql root -r root -p {root-password-here}
 
-4) mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'{99.99.99.99}' IDENTIFIED BY '{root-password-here}' WITH GRANT OPTION; FLUSH PRIVILEGES;
+4) Running inside of MYSQL 
 
-5) return to your host sytem 
+	mysql> GRANT ALL PRIVILEGES ON *.* TO 'root'@'{99.99.99.99}' IDENTIFIED BY '{root-password-here}' WITH GRANT OPTION; 
+	FLUSH PRIVILEGES;
+
+5) return to your host system 
 
 6) open SEQUEL PRO
 
