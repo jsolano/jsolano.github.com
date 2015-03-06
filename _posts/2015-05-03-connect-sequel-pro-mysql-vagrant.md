@@ -38,18 +38,18 @@ The vagrant is an Ubuntu 12.04 image with MySQL installed.
 6) open SEQUEL PRO
 
 7) Go to SSH connections :
-	7.1) Name: <anyname>
-	7.2) MySQL Host: {99.99.99.99}  (MySql IP from step 2)
-	7.3) Username: root
-	7.4) Password: {root-password-here}
-	7.5) Database: {database-name}
-	7.6) Port: 3306
-	7.7) SSH Host: 127.0.0.1
-	7.8) SSH User: vagrant
-	7.9) SSH Key: ~/.vagrant.d/insecure_private_key
-	7.10) SSH Port: 2222 (or 2200, depend on the vagran up result)
+	* Name: <anyname>
+	* MySQL Host: {99.99.99.99}  (MySql IP from step 2)
+	* Username: root
+	* Password: {root-password-here}
+	* Database: {database-name}
+	* Port: 3306
+	* SSH Host: 127.0.0.1
+	* SSH User: vagrant
+	* SSH Key: ~/.vagrant.d/insecure_private_key
+	* SSH Port: 2222 (or 2200, depend on the vagran up result)
 
-	Test connection, Save Configuration ... 
+8) Test connection, Save Configuration ... 
 
 	Connect
 
