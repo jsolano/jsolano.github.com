@@ -15,7 +15,9 @@ I need to connect SEQUEL PRO to a MySql instance runnign in a vagrant machine.
 
 The vagrant is an Ubuntu 12.04 image with MySQL installed.  
 
-1) Connect to your vagrant : $vagrant ssh
+1) Connect to your vagrant : 
+
+	$vagrant ssh
 
 2) Find the address MySQL is bound to : cat /etc/mysql/my.cnf | grep bind-address
    The result will be : bind-address = 99.99.99.99 <- example
